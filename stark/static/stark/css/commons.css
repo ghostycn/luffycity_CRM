@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+img {
+    border: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.font-16{
+    font-size: 16px !important;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+.bg-danger {
+    background-color: #d9534f !important;
+    color: #ffffff;
+}
+.bg-success {
+    background-color: #5cb85c !important;
+    color: #ffffff;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #777;
+    border-radius: 10px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+body {
+    margin: 0;
+}
+
+.no-radius {
+    border-radius: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.pg-body > .left-menu {
+    background-color: #EAEDF1;
+    position: absolute;
+    left: 1px;
+    top: 48px;
+    bottom: 0;
+    width: 220px;
+    border: 1px solid #EAEDF1;
+    overflow: auto;
+}
+
+.pg-body > .right-body {
+    position: absolute;
+    left: 225px;
+    right: 0;
+    top: 48px;
+    bottom: 0;
+    overflow: scroll;
+    border: 1px solid #ddd;
+    border-top: 0;
+    font-size: 13px;
+    min-width: 755px;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.luffy-container {
+    padding: 15px;
+}
+
+.left-menu .menu-body .static-menu {
+
+}
+
+.left-menu .menu-body .static-menu .icon-wrap {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.left-menu .menu-body .static-menu a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    display: block;
+    background: #efefef;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #efefef), color-stop(1, #fafafa));
+    background: -ms-linear-gradient(bottom, #efefef, #fafafa);
+    background: -moz-linear-gradient(center bottom, #efefef 0%, #fafafa 100%);
+    background: -o-linear-gradient(bottom, #efefef, #fafafa);
+    filter: progid:dximagetransform.microsoft.gradient(startColorStr='#e3e3e3', EndColorStr='#ffffff');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa',EndColorStr='#efefef')";
+    box-shadow: inset 0px 1px 1px white;
+}
+
+.left-menu .menu-body .static-menu a:hover {
+    color: #2F72AB;
+    border-left: 2px solid #2F72AB;
+}
+
+.left-menu .menu-body .static-menu a.active {
+    color: #2F72AB;
+    border-left: 2px solid #2F72AB;
+}
